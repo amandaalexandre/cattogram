@@ -9,7 +9,8 @@ This will soon change, since this project will be refactored into a MERN stack a
 - CSS (Flexbox and Grid)
 - HTML
 
-
 ## Expected layout
 ![Cat Only Instagram Front End Clone](screen_capture.png)
 
+## Style guide
+![Instagram Front End Clone Style Guide](style_guide.PNG)
