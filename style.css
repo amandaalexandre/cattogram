@@ -1,0 +1,85 @@
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script:wght@700&family=Roboto:wght@300;500&display=swap');
+
+/* criando variáveis de cores */
+
+:root {
+    --fonte-primaria: 'Roboto', sans-serif;
+    --fonte-logo: 'Dancing Script';
+    --cinza-fundo: #f7f7f7;
+    --azul-inativo: #b2dffc;
+    --preto-logo: #262626;
+    --cinza: #dfdfdf;
+}
+
+body {
+    margin: 1rem;
+    width: 100vw;
+    height: 100vh;
+    background-color: #f7f7f7;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-template-rows: 90% 10%;
+    font-family: var(--fonte-primaria);
+    font-weight: 300;
+    font-size: 12px;
+}
+
+.mockup {
+    width: 50vw;
+    height: 90vh;
+}
+
+#mockup-img {
+    height: 90vh;
+}
+
+.login {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    gap: 10px;
+    height: 100%;
+    width: 100%;
+}
+
+.box {
+    background-color: white;
+    border: 1px solid var(--cinza);
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    width: 100%;
+    padding: 1rem;
+}
+
+h1 {
+    font-family: var(--fonte-logo);
+    font-weight: 700;
+    font-size: 50px;
+    margin: 5px;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+    width: 90%;
+    gap: 5px;
+}
+
+.login-botoes {
+    width: 100%;
+    display: flex;
+    justify-content:center;
+    align-items: center;
+}
+
+.login-botoes > img {
+    width: 140px;
+    height: 41px;
+}
+
+footer {
+    grid-column: 1/3;
+}
